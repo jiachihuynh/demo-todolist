@@ -3,10 +3,22 @@
     font-weight: 300;
     font-size: 24px;
     color: #4d4d4d;
+    border-bottom: 1px solid #bebebe;
+    padding: 10px 5px;
+
+
 }
 
-.TodoList-complete {
+.TodoList:last-child {
+    border-bottom: none;
+}
+
+.TodoList-complete > p {
     text-decoration: line-through;
     opacity: .3;
     
+}
+
+.TodoList > p {
+    margin: 0;
 }
