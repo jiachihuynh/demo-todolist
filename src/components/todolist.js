@@ -12,11 +12,17 @@ export default class Todolist extends Component {
           url = checkCompleteImg ;
       }
       return (
-          <div onClick={onClick} 
+          <div  
                className={classNames('TodoList', {
                    "TodoList-complete" : item.isComplete
           })}>
-              <img src={url} width={32} heght={32} />
+              <img 
+                src={url} 
+                width={32} 
+                height={32}
+                onClick={onClick}
+                alt="nothing" 
+              />
               <p>{item.title}</p>  
           </div>
     );

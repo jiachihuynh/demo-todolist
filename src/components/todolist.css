@@ -5,8 +5,7 @@
     color: #4d4d4d;
     border-bottom: 1px solid #bebebe;
     padding: 10px 5px;
-
-
+    display: flex;
 }
 
 .TodoList:last-child {
@@ -20,5 +19,5 @@
 }
 
 .TodoList > p {
-    margin: 0;
+    margin: 0 0 0 10px;
 }
